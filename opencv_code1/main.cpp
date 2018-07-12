@@ -1,11 +1,7 @@
-#include<opencv2/opencv.hpp>
-#include<iostream>
-using namespace std;
-using namespace cv;
+#include "header.h"
 
 int main() {
-	Mat img = imread("E:\\code\\0.jpg");
-	imshow("ÏÔÊ¾Í¼Ïñ",img);
-	waitKey(0);
+	test();
+	while (1);
 	return 0;
 }
